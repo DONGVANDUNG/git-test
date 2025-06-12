@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.css']
 })
 export class LayoutComponent implements OnInit {
-
+  gitMerge: number = 0;
+  gitMerge1: number = 1;
   constructor() { }
 
   ngOnInit() {
